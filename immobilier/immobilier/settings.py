@@ -9,8 +9,8 @@
 
 BOT_NAME = "immobilier"
 
-SPIDER_MODULES = ["immobilier.spiders"]
-NEWSPIDER_MODULE = "immobilier.spiders"
+SPIDER_MODULES = ["immobilier.immobilier.spiders"]
+NEWSPIDER_MODULE = "immobilier.immobilier.spiders"
 
 ADDONS = {}
 
@@ -41,7 +41,7 @@ DOWNLOAD_DELAY = 1
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "immobilier.middlewares.ImmobilierSpiderMiddleware": 543,
+#    "immobilier.immobilier.middlewares.ImmobilierSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
