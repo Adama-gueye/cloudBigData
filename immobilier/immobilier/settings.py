@@ -14,6 +14,9 @@ NEWSPIDER_MODULE = "immobilier.immobilier.spiders"
 
 ADDONS = {}
 
+ITEM_PIPELINES = {
+    "immobilier.pipelines.S3UploadPipeline": 300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "immobilier (+http://www.yourdomain.com)"
